@@ -96,11 +96,11 @@ styleId: 22677
       // get color depending on variable value
      function getColor(d) {
         cats = statesData.features[0].properties.levels;
-     return d === cats[4] ? '#800026' :
-     d === cats[3] ? '#E31A1C' :
-     d === cats[2] ? '#FD8D3C' :
-     d === cats[1] ? '#FEB24C' :
-     d === cats[0] ? '#FFEDA0' :
+     return d === cats[4] ? '#336600' :
+     d === cats[3] ? '#66CC00' :
+     d === cats[2] ? '#FFFF00' :
+     d === cats[1] ? '#FF6600' :
+     d === cats[0] ? '#CC0000' :
        '#000000';
                                //'';
                //d === cats[5] ? '' :
