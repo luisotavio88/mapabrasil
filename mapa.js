@@ -31,11 +31,11 @@ opacity: 0.7;
 }
 </style>
 
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+<link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
 <!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
+    <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
 <![endif]-->
-<script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+<script src="https://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
 
 <div id="map" class="leaflet-container leaflet-fade-anim" tabindex="0" style="position: relative;">
 <script>
@@ -163,8 +163,7 @@ styleId: 22677
      onEachFeature: onEachFeature
      }).addTo(map);
     
-    // map.attributionControl.addAttribution('<a href="http://cnj.jus.br/images/pesquisas-judiciarias/Base_de_dados/Base_de_dados.zip">Dados do Justiça em Números</a>');
-     
+
      var legend = L.control({position: 'bottomright'});
     
      legend.onAdd = function (map) {
