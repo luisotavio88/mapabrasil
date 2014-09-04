@@ -1,3 +1,4 @@
+<script>
 <style>
 #map {
 width: 800px;
@@ -193,3 +194,4 @@ styleId: 22677
 
 </script>
 </div>
+</script>
