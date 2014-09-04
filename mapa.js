@@ -87,7 +87,7 @@ styleId: 22677
      };
     
      info.update = function (prop) {
-     this._div.innerHTML = '<h4>Índice de satisfação por estado</h4>' + (prop ?
+     this._div.innerHTML = '<h4>Resultado por estado</h4>' + (prop ?
      '<b>' + prop.ESTADO + '</b><br />' + prop.varCont + ''
      : 'Coloque o mouse sobre um estado');
      };
