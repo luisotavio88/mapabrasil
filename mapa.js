@@ -32,9 +32,9 @@ opacity: 0.7;
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
-//<!--[if lte IE 8]>
-//    <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
-//<![endif]-->
+<!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
+<![endif]-->
 <script src="https:////cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
 
 <div id="map" class="leaflet-container leaflet-fade-anim" tabindex="0" style="position: relative;">
